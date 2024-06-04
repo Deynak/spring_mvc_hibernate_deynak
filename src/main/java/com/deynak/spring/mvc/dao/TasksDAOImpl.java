@@ -11,6 +11,8 @@ import java.util.List;
 @Repository
 public class TasksDAOImpl implements TasksDAO {
 
+    int i;
+
     @Autowired
     private SessionFactory sessionFactory;
 
