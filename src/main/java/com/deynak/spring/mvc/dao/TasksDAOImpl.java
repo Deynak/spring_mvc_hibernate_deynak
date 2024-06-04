@@ -12,6 +12,7 @@ import java.util.List;
 public class TasksDAOImpl implements TasksDAO {
 
     int i;
+    int j;
 
     @Autowired
     private SessionFactory sessionFactory;
